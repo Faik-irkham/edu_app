@@ -29,4 +29,4 @@ Fitur Utama
 
 ## Credit
 
-UI by [EduGO - Student App UX Case Study](https://www.behance.net/gallery/204605945/EduGO-Student-App-UX-Case-Study)
+UI by: [EduGO - Student App UX Case Study](https://www.behance.net/gallery/204605945/EduGO-Student-App-UX-Case-Study)
