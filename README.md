@@ -1,16 +1,26 @@
-# edu_app
+# Edu App Flutter UI
 
-A new Flutter project.
+![Home Page](assets/ui/home.png)
+![Home Page](assets/ui/profile.png)
 
-## Getting Started
+Edu App Flutter UI adalah aplikasi antarmuka pengguna yang dikembangkan menggunakan Flutter. Aplikasi ini dirancang untuk keperluan pendidikan, menghadirkan berbagai fitur seperti dashboard, jadwal kelas, informasi mata pelajaran, dan interaksi antara siswa serta guru dalam tampilan modern dan responsif.
 
-This project is a starting point for a Flutter application.
+Fitur Utama
 
-A few resources to get you started if this is your first Flutter project:
+- Dashboard: Tampilkan informasi penting seperti jadwal kelas, pengumuman terbaru, dan ringkasan aktivitas belajar.
+- Jadwal Kelas: Kelola dan lihat jadwal kelas harian dengan antarmuka yang mudah dipahami.
+- Profil Pengguna: Halaman profil untuk siswa dan guru dengan detail informasi dan pengaturan akun.
+  Interaksi Guru dan Siswa: Fitur untuk komunikasi antara guru dan siswa.
+- Tampilan Responsif: Desain UI yang responsif dan kompatibel dengan berbagai ukuran layar.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+# Edu App Flutter UI
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Edu App Flutter UI adalah aplikasi antarmuka pengguna yang dikembangkan menggunakan Flutter. Aplikasi ini dirancang untuk keperluan pendidikan, menghadirkan berbagai fitur seperti dashboard, jadwal kelas, informasi mata pelajaran, dan interaksi antara siswa serta guru dalam tampilan modern dan responsif.
+
+Fitur Utama
+
+- Dashboard: Tampilkan informasi penting seperti jadwal kelas, pengumuman terbaru, dan ringkasan aktivitas belajar.
+- Jadwal Kelas: Kelola dan lihat jadwal kelas harian dengan antarmuka yang mudah dipahami.
+- Profil Pengguna: Halaman profil untuk siswa dan guru dengan detail informasi dan pengaturan akun.
+  Interaksi Guru dan Siswa: Fitur untuk komunikasi antara guru dan siswa.
+- Tampilan Responsif: Desain UI yang responsif dan kompatibel dengan berbagai ukuran layar.
