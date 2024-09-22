@@ -1,7 +1,9 @@
 # Edu App Flutter UI
 
-![Home Page](assets/ui/home.png)
-![Home Page](assets/ui/profile.png)
+<p align="center">
+  <img src="assets/ui/home.png" alt="Home Page" width="45%" />
+  <img src="assets/ui/profile.png" alt="Profile Page" width="45%" />
+</p>
 
 Edu App Flutter UI adalah aplikasi antarmuka pengguna yang dikembangkan menggunakan Flutter. Aplikasi ini dirancang untuk keperluan pendidikan, menghadirkan berbagai fitur seperti dashboard, jadwal kelas, informasi mata pelajaran, dan interaksi antara siswa serta guru dalam tampilan modern dan responsif.
 
