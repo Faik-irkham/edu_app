@@ -26,3 +26,7 @@ Fitur Utama
 - Profil Pengguna: Halaman profil untuk siswa dan guru dengan detail informasi dan pengaturan akun.
   Interaksi Guru dan Siswa: Fitur untuk komunikasi antara guru dan siswa.
 - Tampilan Responsif: Desain UI yang responsif dan kompatibel dengan berbagai ukuran layar.
+
+## Credit
+
+UI by [Nama Pembuat UI](https://www.behance.net/gallery/204605945/EduGO-Student-App-UX-Case-Study)
