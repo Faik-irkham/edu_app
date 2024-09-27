@@ -35,7 +35,6 @@ class _HomePageState extends State<HomePage>
       CurvedAnimation(parent: _controller, curve: Curves.easeInOut),
     );
 
-    // Mulai animasi ketika widget ditampilkan
     _controller.forward();
   }
 
@@ -121,7 +120,7 @@ class _HomePageState extends State<HomePage>
                     height: 140,
                     width: double.infinity,
                     decoration: BoxDecoration(
-                      color: const Color(0XFFFE803C),
+                      color: const Color(0XFFFE803c),
                       borderRadius: BorderRadius.circular(20),
                       gradient: const RadialGradient(
                         center: Alignment(0.4, 0),
@@ -151,20 +150,20 @@ class _HomePageState extends State<HomePage>
                               text: TextSpan(
                                 children: [
                                   TextSpan(
-                                    text: 'on ', // Teks pertama
+                                    text: 'on',
                                     style: Theme.of(context)
                                         .textTheme
-                                        .bodyMedium!
-                                        .copyWith(
+                                        .bodyMedium
+                                        ?.copyWith(
                                           color: Colors.white,
                                         ),
                                   ),
                                   TextSpan(
-                                    text: 'Campus', // Teks kedua
+                                    text: 'Campus',
                                     style: Theme.of(context)
                                         .textTheme
-                                        .bodyLarge!
-                                        .copyWith(
+                                        .bodyLarge
+                                        ?.copyWith(
                                           fontWeight: FontWeight.w600,
                                           color: Colors.white,
                                         ),
@@ -224,11 +223,11 @@ class _HomePageState extends State<HomePage>
                     childAspectRatio: 3.5,
                     children: [
                       _buildDashboardItem(Icons.person, 'Attendance'),
-                      _buildDashboardItem(Icons.schedule, 'Schedule'),
-                      _buildDashboardItem(Icons.book, 'Courses'),
-                      _buildDashboardItem(Icons.wallet, 'Payments'),
-                      _buildDashboardItem(Icons.assignment, 'Assignments'),
-                      _buildDashboardItem(Icons.event, 'Events'),
+                      _buildDashboardItem(Icons.person, 'Schedule'),
+                      _buildDashboardItem(Icons.person, 'Courses'),
+                      _buildDashboardItem(Icons.person, 'Payments'),
+                      _buildDashboardItem(Icons.person, 'Assignment'),
+                      _buildDashboardItem(Icons.person, 'Events'),
                     ],
                   ),
                 ],
@@ -251,19 +250,18 @@ class _HomePageState extends State<HomePage>
                   const SizedBox(height: 20),
                   Container(
                     padding: const EdgeInsets.symmetric(
-                        horizontal: 15, vertical: 20),
+                      horizontal: 15,
+                      vertical: 20,
+                    ),
                     decoration: BoxDecoration(
-                      borderRadius: BorderRadius.circular(25),
                       color: Colors.white,
+                      borderRadius: BorderRadius.circular(25),
                       boxShadow: const [
                         BoxShadow(
                           color: Color.fromRGBO(0, 0, 0, 0.1),
                           blurRadius: 12,
                           spreadRadius: 0,
-                          offset: Offset(
-                            0,
-                            4,
-                          ),
+                          offset: Offset(0, 4),
                         ),
                       ],
                     ),
@@ -323,7 +321,7 @@ class _HomePageState extends State<HomePage>
                                   ),
                                 ),
                                 Text(
-                                  '4 days',
+                                  '4 Days',
                                   style: Theme.of(context)
                                       .textTheme
                                       .bodyMedium
@@ -416,9 +414,9 @@ class _HomePageState extends State<HomePage>
 
   Widget _buildDashboardItem(IconData icon, String label) {
     return Container(
-      padding: const EdgeInsets.symmetric(vertical: 5, horizontal: 20),
+      padding: const EdgeInsets.symmetric(horizontal: 20, vertical: 5),
       decoration: BoxDecoration(
-        color: const Color(0XFFFE803C).withOpacity(0.1),
+        color: const Color(0XFFFE803c).withOpacity(0.1),
         borderRadius: BorderRadius.circular(30),
       ),
       child: Row(
